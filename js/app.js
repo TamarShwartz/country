@@ -40,6 +40,7 @@ const doOnlyApi = async (_name) => {
         })
         .then((data) => createCountry(data))
         .catch((error) => {
+            hideLoading();
             document.querySelector("main").innerHTML = `<p class="text-center text-white display-6"  style="height: 70vh;">A non-existent country</p>`;
             console.error('Error:', error);
         });
