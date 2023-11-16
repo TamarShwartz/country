@@ -29,6 +29,9 @@ header #search_input{
     transform: scale(1.01, 1.01);
 
   }
+  #id_loading{
+    color: blue;
+  }
 nav li{
     cursor: pointer;
 }
