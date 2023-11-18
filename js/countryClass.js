@@ -15,6 +15,10 @@ export default class Country {
         let div = document.createElement("div");
         div.className = "col-10 border p-2 m-auto card font ";
         document.querySelector(this.parent).append(div);
+        div.setAttribute('data-aos', 'fade-up');
+        div.setAttribute('data-aos-duration', '1000');
+        div.setAttribute('data-aos-delay', '200');
+        // data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"
         div.innerHTML = `<div class="row justify-content-between mb-1"><div class="col-5">
     <img src="${this.flag}" alt="${this.name}" class=" imgs"></div>
    <div class="col-5"> <p>name:${this.name}</p>

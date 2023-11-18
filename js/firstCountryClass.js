@@ -11,7 +11,7 @@ export default class firstCountry extends Country
         document.querySelector(this.parent).append(div);
         div.innerHTML = `
     <img src="${ this.flag}" alt="${this.name}" class="m-1 img">
-    <p class="display-6 font">name:${ this.name}</p>`
+    <p class="display-6 font">${ this.name}</p>`
     div.addEventListener("click", () => super.render(doOnlyApiByCode,doOnlyApi));
    }
 }
