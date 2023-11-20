@@ -10,7 +10,7 @@ const init = () => {
     declareEvents(doOnlyApi);
     selectApi();
 }
-const firs_country = ["Israel", "France", "Thailand", "United States"];
+const firs_country = ["Israel", "France", "Thailand", "United States" ,"United Kingdom"];
 const updateUi = () => {
     creatHeader();
     creatLi("Home", doOnlyApi, doApi);
